@@ -15,7 +15,7 @@ load_dotenv()#loads env variables
 openai_api_key = os.getenv("OPENAI_API_KEY") #getting the key
 pinecone_api_key= os.getenv("PINE_API_KEY")
 
-directory = 'C:/Users/venka/OneDrive/Documents/neodonya/llm trail/data'
+directory = 'data'
 
 def load_docs(directory):
   loader = DirectoryLoader(directory)
